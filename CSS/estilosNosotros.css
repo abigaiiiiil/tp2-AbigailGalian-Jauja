@@ -1,0 +1,202 @@
+*{
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .Logo-Jauja{
+    width:173px;
+    margin: 4px 52px 10px 52px;
+}
+/*nav*/
+.collapse ul li a{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+.collapse .navbar-nav .nav-item .btn{
+    line-height: 2.2rem;
+    height: auto;
+    padding: 0.4rem 1rem;
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+    background-color: #a01429;
+    border-color: #a01429;
+    border-radius: 0.4rem;
+}
+/*dropdown*/
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.navbar-nav .nav-item.dropdown:hover .dropdown-toggle {
+    background-color: transparent;
+}
+.dropdown-menu a:hover {
+    color: #a01429; 
+  }
+  .collapse .navbar-nav .textNav:hover{
+    color: #a01429;
+}
+
+/*dos columnas*/
+.Nosotros-Titulo{
+    margin-left: 50px;
+    margin-top: 70px; 
+    letter-spacing: -1px;
+}
+/*dos columnas*/
+.textPrimer {
+    background: #efefef;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #606c76;
+    line-height: 20px;color:#333;
+    background: #efefef;
+}
+.imgNosotrosPrimeraHombre{
+    padding: 0.8rem;
+    border: 1px solid #efefef;
+}
+.imgNosotrosVarias{
+    padding: 0.8rem;
+    border: 1px solid #efefef;
+    box-shadow: 0.8rem 0.8rem 1rem rgba(0, 0, 0, 0.1)"
+}
+/*text centrado entre imagenes*/
+.Textos-centrados{
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 290px;
+    margin-right: 290px;
+}
+/*iconos redes*/
+.container-Seguinos h2{
+    letter-spacing: -1px;
+    font-size: 1.4rem;
+    color:#333 ;
+}
+
+.container-Seguinos p{
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-align: center;
+}
+.Iconos i{
+    font-size: 70px;
+    width: 100px;
+}
+.container-Seguinos{
+    margin: 53px 396px 10px 396px;
+    padding-top: 53px ;;
+}
+/*linea seguinos*/
+.linea-seguinos{
+    border: none;
+    border-top: 1.8px solid #3f4041;
+    margin: 20px 390px;
+    width: 500px;
+    padding-top: 30px;
+    }
+    /*linea entre*/
+    .linea-Entre{
+        border: none;
+        border-top: 1px solid rgb(255, 255, 255);
+        margin:10px 310px 20px;
+        width: 55%;
+        opacity: 1;
+    }
+/*footer*/
+footer{
+    margin-top: 70px;
+    margin-bottom: -16px;
+    background: #e62645;
+    color: white;
+    font-weight: 200;
+}
+.footer-Filas{
+    padding: 0 150px 0 150px;
+}
+footer .row .logo{
+    margin-top: 40px;
+    width: 8%;
+    height: 8%;
+}
+
+footer .row .logo2{
+    margin-top: 60px;
+    width: 8%;
+    height: 8%;
+}
+
+
+@media(max-width: 860px){
+    .Logo-Jauja {
+        margin-left: 145px;
+    }
+    .collapse .navbar-nav .nav-item .btn{
+        margin: 5px 0 5px;
+    }  
+
+    .collapse ul li{
+        margin-left: 10px;
+    }
+
+    .navbar-nav{
+        background: white;
+        margin-right: 100px;
+        margin-left: -13px;
+        border-radius: 10px;
+    }
+
+    .c1{
+        margin-right: 75px;
+    }
+
+    .c3{
+        margin-left: 75px;
+    }
+    .Nosotros-Titulo{
+        margin-left: 0px;
+        margin-top: 30px; 
+    }
+    .Textos-centrados{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        line-height: 30px;
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+    .imgNosotrosPrimeraHombre{
+        padding: 0.8rem;
+        width: 440px;
+    }
+    .imgNosotrosVarias{
+        width: 440px;
+    }
+    .textPrimer{
+        margin-left: 0;
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    /*linea de seguinos*/
+    .linea-seguinos{
+        width: 80%;
+        margin: 0 39px;
+    }
+    .linea-Entre{
+        width: 80%;
+        margin:10px 0px 20px 50px;
+    }
+    /*para que los iconos se agranden al hacer la ventana responsible*/
+    footer .row .logo2, footer .row .logo{
+        width: 20%;
+        height: 20%;
+    }
+}

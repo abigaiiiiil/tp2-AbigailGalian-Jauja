@@ -1,0 +1,258 @@
+* {
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.Logo-Jauja{
+    width:173px;
+    margin: 4px 52px 10px 52px;
+}
+/*nav*/
+.collapse ul li a {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.collapse .navbar-nav .nav-item .btn {
+    line-height: 2.2rem;
+    height: auto;
+    padding: 0.4rem 1rem;
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+    background-color: #a01429;
+    border-color: #a01429;
+    border-radius: 0.4rem;
+}
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-toggle {
+    background-color: transparent;
+}
+/*dropdown*/
+.dropdown-menu a:hover {
+    color: #a01429;
+}
+.collapse .navbar-nav .textNav:hover{
+    color: #a01429;
+}
+/*dos columnas*/
+.textPrimer {
+    background: #efefef;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #606c76;
+    line-height: 20px;
+}
+/*text*/
+.texto-Helados {
+    margin-top: 25px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    color: #606c76;
+}
+
+.texto-Helados a {
+    text-decoration: none;
+    color: #a01429;
+}
+
+.texto-Helados a:hover {
+    color: #606c76;
+}
+
+.containerText-HELADOS {
+    margin: 10px 195px 15px 195px;
+    letter-spacing: 1px;
+    border-radius: 0.5rem;
+    border: 1px solid #e74c66;
+    padding: 1rem;
+    font-size: 15px;
+    background-color: #efefef;
+    font-style: italic;
+    text-align: center;
+    color: #606c76;
+}
+
+.containerText-HELADOS a {
+    color: #a01429;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.containerText-HELADOS a:hover {
+    color: #606c76;
+}
+
+.containerText-HELADOS strong {
+    font-style: italic;
+}
+
+.containerSabores-HELADOS {
+    margin: 10px 348px 15px 348px;
+    height: 135px;
+    border-radius: 0.5rem;
+    background-size: cover;
+    background-position: center center;
+}
+
+.containerSabores-HELADOS h2 {
+    color: white;
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 52px;
+}
+
+.container-Seguinos h2 {
+    letter-spacing: -1px;
+    font-size: 24.8px;
+    color: #333;
+}
+
+.container-Seguinos p {
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-align: center;
+    font-size: 14px;
+}
+
+.container-Seguinos {
+    margin: 53px 396px 10px 396px;
+    padding-top: 53px;
+}
+
+/*linea seguinos*/
+.linea-seguinos {
+    border: none;
+    border-top: 1.8px solid #3f4041;
+    margin: 20px 390px;
+    width: 500px;
+    padding-top: 30px;
+}
+
+/*linea entre*/
+.linea-Entre {
+    border: none;
+    border-top: 1px solid rgb(255, 255, 255);
+    margin: 10px 310px 20px;
+    width: 55%;
+    opacity: 1;
+}
+
+.Iconos i {
+    font-size: 70px;
+    width: 100px;
+}
+/*footer*/
+footer {
+    margin-top: 70px;
+    margin-bottom: -16px;
+    background: #e62645;
+    color: white;
+    font-weight: 200;
+}
+
+.footer-Filas {
+    padding: 0 150px 0 150px;
+}
+
+footer .row .logo {
+    margin-top: 40px;
+    width: 8%;
+    height: 8%;
+}
+
+footer .row .logo2 {
+    margin-top: 60px;
+    width: 8%;
+    height: 8%;
+}
+.Helados-titulo{
+        margin-left: 50px;
+        margin-top: 150px;
+    }
+@media(max-width: 860px) {
+    .Logo-Jauja {
+        margin-left: 145px;
+    }
+    .collapse .navbar-nav .nav-item .btn {
+        margin: 5px 0 5px;
+    }
+
+    .collapse ul li {
+        margin-left: 10px;
+    }
+
+    .navbar-nav {
+        background: white;
+        margin-right: 100px;
+        margin-left: -13px;
+        border-radius: 10px;
+    }
+
+    .c1 {
+        margin-right: 75px;
+    }
+
+    .c3 {
+        margin-left: 75px;
+    }
+
+    .textPrimer {
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    .Helados-titulo{
+        margin-top: 30px;
+        margin-right: 50px;
+        text-align: center;
+    }
+    .textPrimer{
+        margin-left: 0;
+        margin-top: 80px;
+        text-align: center;
+    }
+    .containerSabores-HELADOS {
+        margin: 10px 3px 15px 3px;
+    }
+
+    .containerText-HELADOS {
+        margin: 10px 19px 15px 19px;
+        letter-spacing: 1px;
+        border-radius: 0.5rem;
+        border: 1px solid #e74c66;
+        padding: 1rem;
+        font-size: 15px;
+        background-color: #efefef;
+        font-style: italic;
+        text-align: center;
+        color: #606c76;
+    }
+    
+    /*linea de seguinos*/
+    .linea-seguinos {
+        width: 80%;
+        margin: 0 39px;
+    }
+
+    .linea-Entre {
+        width: 80%;
+        margin: 10px 0px 20px 50px;
+    }
+
+    footer .row .logo2,
+    footer .row .logo {
+        width: 20%;
+        height: 20%;
+    }
+
+}

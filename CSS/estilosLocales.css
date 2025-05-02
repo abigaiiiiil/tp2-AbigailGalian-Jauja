@@ -1,0 +1,237 @@
+/*locales*/
+* {
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.Logo-Jauja {
+    width: 173px;
+    margin: 4px 52px 10px 52px;
+}
+
+/*nav*/
+.collapse ul li a {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.collapse .navbar-nav .nav-item .btn {
+    line-height: 2.2rem;
+    height: auto;
+    padding: 0.4rem 1rem;
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+    background-color: #a01429;
+    border-color: #a01429;
+    border-radius: 0.4rem;
+}
+
+.py-5 .container .mb-3 {
+    letter-spacing: -2px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+
+}
+
+.py-5 .container .mb-5 {
+    text-align: center;
+    font-weight: 300;
+    color: #606c76;
+}
+
+/*dropdown*/
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-toggle {
+    background-color: transparent;
+}
+
+.dropdown-menu a:hover {
+    color: #a01429;
+}
+
+.collapse .navbar-nav .textNav:hover {
+    color: #a01429;
+}
+
+/*dos columns*/
+.textPrimer {
+    background: #efefef;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #606c76;
+    line-height: 20px;
+}
+
+.Locales-Titulo {
+    margin-left: 50px;
+    margin-top: 150px;
+    letter-spacing: -2px;
+}
+
+/*lugares*/
+.Title-Locales {
+    color: #a01429;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-align: right;
+    border-right: 4px solid #d1d1d1;
+
+}
+
+.Title-Locales h1 {
+    font-size: 28px;
+}
+
+.SubTitle-Locales a {
+    text-decoration: none;
+}
+
+.SubTitle-Locales .sub a {
+    color: #333;
+    letter-spacing: -1px;
+    font-size: 21px;
+    font-weight: 500;
+
+}
+
+.SubTitle-Locales .sub {
+    margin-top: -5px;
+    margin-left: 10px;
+}
+
+.Direccion-Locales {
+    margin-bottom: 35px;
+}
+
+.Direccion-Locales a {
+    color: #a01429;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 35px;
+    margin-left: 10px;
+}
+
+.Direccion-Locales span {
+    color: #606c76;
+    font-weight: lighter;
+}
+
+.bloque-Provincia {
+    margin-bottom: 45px;
+}
+
+.lineas-Locales {
+    border: none;
+    border-top: 1.8px solid #3f4041;
+    margin: 0px;
+    width: 650px;
+}
+
+.linea-Entre {
+    border: none;
+    border-top: 1px solid rgb(255, 255, 255);
+    margin: 10px 310px 20px;
+    width: 55%;
+    opacity: 1;
+}
+
+footer {
+    margin-top: 70px;
+    margin-bottom: -16px;
+    background: #e62645;
+    color: white;
+    font-weight: 200;
+}
+
+.footer-Filas {
+    padding: 0 150px 0 150px;
+}
+
+footer .row .logo {
+    margin-top: 40px;
+    width: 8%;
+    height: 8%;
+}
+
+footer .row .logo2 {
+    margin-top: 60px;
+    width: 8%;
+    height: 8%;
+}
+
+@media(max-width: 860px) {
+    .Logo-Jauja {
+        margin-left: 145px;
+    }
+
+    .collapse .navbar-nav .nav-item .btn {
+        margin: 5px 0 5px;
+    }
+
+    .collapse ul li {
+        margin-left: 10px;
+    }
+
+    .navbar-nav {
+        background: white;
+        margin-right: 100px;
+        margin-left: -13px;
+        border-radius: 10px;
+    }
+
+    .c1 {
+        margin-right: 75px;
+    }
+
+    .c3 {
+        margin-left: 75px;
+    }
+
+    .textPrimer {
+        margin-top: 10px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .Locales-Titulo {
+        text-align: center;
+        margin-right: 40px;
+        margin-top: 30px;
+    }
+
+    .lineas-Locales {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .linea-Entre {
+        width: 80%;
+        margin: 10px 0px 20px 50px;
+    }
+
+    footer .row .logo2,
+    footer .row .logo {
+        width: 20%;
+        height: 20%;
+    }
+
+    .Title-Locales h1 {
+        text-align: left;
+        border-bottom: 4px solid #d1d1d1;
+        padding-bottom: 5px;
+        margin-left: 10px;
+    }
+}

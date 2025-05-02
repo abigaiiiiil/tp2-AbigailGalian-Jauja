@@ -1,0 +1,319 @@
+* {
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.Logo-Jauja{
+    width:173px;
+    margin: 4px 52px 10px 52px;
+}
+
+/*dropdown*/
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.collapse .navbar-nav .textNav:hover{
+    color: #a01429;
+}
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-toggle {
+    background-color: transparent;
+}
+
+.dropdown-menu a:hover {
+    color: #a01429;
+}
+
+/*nav*/
+.collapse ul li a {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.collapse .navbar-nav .nav-item .btn {
+    line-height: 2.2rem;
+    height: auto;
+    padding: 0.4rem 1rem;
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+    background-color: #a01429;
+    border-color: #a01429;
+    border-radius: 0.4rem;
+}
+
+/*dos columnas*/
+.textPrimer {
+    background: #efefef;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #606c76;
+    line-height: 20px;
+}
+
+.columnas {
+    max-width: 50px;
+}
+
+.Primer-titulo {
+    margin-left: 50px;
+    margin-top: 150px;
+    letter-spacing: -1px;
+}
+
+.Segundo-titulo {
+    margin-left: 50px;
+    margin-top: 150px;
+    letter-spacing: -1px;
+}
+
+.Tercer-titulo {
+    margin-left: 50px;
+    margin-top: 110px;
+    letter-spacing: -1px;
+}
+.ImagenesDelIndex1 {
+    width: 113%;
+    height: 100%;
+    margin-left: -10%;
+    margin-top: 0%;
+}
+
+.p-sabores {
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-right: 40px;
+    color: #616d6d;
+}
+
+.img-nuestro {
+    width: 120%;
+    height: auto;
+    margin-left: -10%;
+    margin-top: 0%;
+}
+.btnResto{
+    background-color: #a01429; 
+    color: white;
+    border: none;
+    margin-left: 50px;
+    border-radius: 2.5px;
+    font-weight: 300;
+    padding: 0.4rem 1rem;
+}
+/* tres columnas*/
+.py-5 .container .mb-3 {
+    letter-spacing: -2px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+
+}
+
+.py-5 .container .mb-5 {
+    text-align: center;
+    font-weight: 300;
+    color: #606c76;
+}
+
+.abi {
+    background: #ffffff;
+}
+
+.col-md-4 h5 {
+    letter-spacing: -1px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.col-md-4 p {
+    color: #8a8989;
+    font-size: 15px;
+}
+
+.col-md-4 h6 {
+    color: #a01429;
+    font-style: italic;
+}
+
+/*tres filas cartas*/
+.card-custom {
+    background-color: transparent;
+    padding: 15px;
+    border: none;
+}
+
+.columnas {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.c1 {
+    margin-right: -40px;
+}
+
+.c3 {
+    margin-left: -40px;
+}
+
+/*iconos redes*/
+.container-Seguinos h2 {
+    letter-spacing: -1px;
+    font-size: 1.4rem;
+    color: #333;
+}
+/*linea seguinos*/
+.linea-seguinos {
+    border: none;
+    border-top: 1.8px solid #3f4041;
+    margin: 20px 390px;
+    width: 500px;
+    padding-top: 30px;
+}
+
+/*linea entre*/
+.linea-Entre {
+    border: none;
+    border-top: 1px solid rgb(255, 255, 255);
+    margin: 10px 310px 20px;
+    width: 55%;
+    opacity: 1;
+}
+
+.container-Seguinos p {
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.Iconos i {
+    font-size: 70px;
+    width: 100px;
+}
+
+/*footer*/
+footer {
+    margin-top: 70px;
+    margin-bottom: -16px;
+    background: #e62645;
+    color: white;
+    font-weight: 200;
+}
+
+.footer-Filas {
+    padding: 0 150px 0 150px;
+}
+
+footer .row .logo {
+    margin-top: 40px;
+    width: 8%;
+    height: 8%;
+}
+
+footer .row .logo2 {
+    margin-top: 60px;
+    width: 8%;
+    height: 8%;
+}
+
+
+
+@media(max-width: 768px) {
+    .Logo-Jauja {
+        margin-left: 145px;
+    }
+
+    .collapse .navbar-nav .nav-item .btn {
+        margin: 5px 0 5px;
+    }
+
+    .collapse ul li {
+        margin-left: 10px;
+    }
+
+    .navbar-nav {
+        background: white;
+        margin-right: 100px;
+        margin-left: -13px;
+        border-radius: 10px;
+    }
+
+    .columnas img {
+        width: 100%;
+    }
+
+    .Segundo-titulo {
+        margin-left: -8px;
+        margin-top: 5px;
+    }
+
+    .Primer-titulo {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .Tercer-titulo {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .btnResto{
+        margin-top: 10px;
+        margin-right: 42px;
+       margin-bottom: 30px;
+    }
+    .btn {
+        margin-right: 50px;
+    }
+
+    .c1 {
+        margin-right: 75px;
+    }
+
+    .c3 {
+        margin-left: 75px;
+    }
+
+    .ImagenesDelIndex1 {
+        margin-left: -10.5%;
+    }
+
+    .textPrimer {
+        margin-left: 0;
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .img-TresFilas-Index {
+        max-width: 600px;
+    }
+
+    .img-nuestro {
+        width: 112.5%;
+        height: auto;
+        margin-top: 0%;
+    }
+
+    .linea-seguinos {
+        width: 80%;
+        margin: 0 39px;
+    }
+
+    .linea-Entre {
+        width: 80%;
+        margin: 10px 0px 20px 45px;
+    }
+
+    footer .row .logo2,
+    footer .row .logo {
+        width: 20%;
+        height: 20%;
+    }
+}
